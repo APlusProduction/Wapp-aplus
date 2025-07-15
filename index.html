@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=League+Spartan' rel='stylesheet'>
+  <style>
+    body::before {
+      content: "";
+      position: fixed;
+      top: -100px;
+      left: -100px;
+      width: 125%;
+      height: 125%;
+      background: url('https://i.imgur.com/WV0ZS1r.png') no-repeat center center;
+      background-size: contain;
+      opacity: 0.2;
+      filter: blur(0px);
+      z-index: -1;
+    }
+
+    body {
+      font-family: 'League Spartan', sans-serif;
+      background-color: #001830;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 120px;
+      margin-top: 40px;
+      color: #e4e9ed;
+    }
+
+    p {
+      font-size: 50px;
+      margin-bottom: 30px;
+      color: #e4e9ed;
+    }
+
+    .transbox {
+      background-color: rgba(0,0,0,0);
+      border: 0px solid black;
+      width: 470px;
+      margin: 75px auto;
+      padding: 10px;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+      cursor: pointer;
+      display: block;
+    }
+
+    .transbox:hover {
+      opacity: 1;
+    }
+
+    .transbox img {
+      width: 100%;
+    }
+
+    .back {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      width: 60px;
+      height: 60px;
+      z-index: 100;
+    }
+
+    .back img {
+      width: 100%;
+      height: auto;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+
+    .back img:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CALL US!</h1>
+  <p>Click a name to WhatsApp them.</p>
+
+  <!-- Ashton -->
+  <a href="https://wa.me/59995203250?text=Hi%20Ashton!%20I'm%20reaching%20out%20via%20your%20contact%20page." class="transbox" target="_blank">
+    <img src="https://i.imgur.com/HYf58oM.png" alt="WhatsApp Ashton">
+  </a>
+
+  <!-- Donovan -->
+  <a href="https://wa.me/59995172265?text=Hi%20Donovan!%20I'm%20reaching%20out%20via%20your%20contact%20page." class="transbox" target="_blank">
+    <img src="https://i.imgur.com/CfO8Ndl.png" alt="WhatsApp Donovan">
+  </a>
+
+  <!-- Raymond -->
+  <a href="https://wa.me/59996827641?text=Hi%20Raymond!%20I'm%20reaching%20out%20via%20your%20contact%20page." class="transbox" target="_blank">
+    <img src="https://i.imgur.com/V4ov4ED.png" alt="WhatsApp Raymond">
+  </a>
+
+  <!-- Back to Linktree -->
+  <a href="https://linktr.ee/productionbyaplus" class="back" title="Return to Linktree">
+    <img src="https://i.imgur.com/vfDlnPj.png" alt="Return to main page">
+  </a>
+
+</body>
+</html>
